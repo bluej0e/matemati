@@ -37,6 +37,7 @@ overlay.addEventListener('click', close);
 overlay.addEventListener('key', close);
 
 $(document).keypress(function(e) {
+  console.log(e.keyCode);
     if (e.keyCode === 27) {
-        close;
+        close();
     }});

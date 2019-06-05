@@ -15,7 +15,6 @@
   $contactform = new PHP_Mail_Form;
   $contactform->ajax = true;
 
-  // Replace with your real receiving email address
   $contactform->to = 'matemati.es@gmail.com';
   $contactform->from_name = $_POST['name'];
   $contactform->from_email = $_POST['email'];

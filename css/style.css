@@ -1,11 +1,3 @@
-/**
-*  Template Name: SimpleLanding
-*  Template URL: https://templatemag.com/simplelanding-bootstrap-landing-page-template/
-*  Author: TemplateMag.com
-*  License: https://templatemag.com/license/
-*/
-
-
 body {
   padding-top: 50px;
   font-family: 'Lato', sans-serif;
@@ -16,6 +8,22 @@ body {
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 16px;
+}
+.navbar-header{
+  width: 100%;
+}
+.navbar-social{
+  float: right;
+  font-size: 1.5em;
+  display: flex;
+}
+.navbar-social a{
+  color: #9d9d9d;
+  margin:0.5em;
+  align-self: center;
+}
+.navbar-social a:hover{
+  color: #fff;
 }
 
 .navbar-inverse {

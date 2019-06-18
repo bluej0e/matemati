@@ -320,7 +320,6 @@ input {
 }
 
 /* Footer */
-
 #footer {
   background: #f4f4f4;
   padding: 20px 0;
@@ -329,8 +328,6 @@ input {
 #copyrights {
   text-align: center;
 }
-
-
 
 /* gallery */
 .galcont{
@@ -342,7 +339,6 @@ input {
   align-items: center;
   padding: 100px 0;
 }
-
 
 .galcont h2{
   color: white;
@@ -361,8 +357,8 @@ input {
   grid-auto-flow: dense;
   grid-gap: 16px;
   justify-content: center;
-
 }
+
 .item{
   overflow: hidden;
   display: grid;
@@ -370,7 +366,6 @@ input {
   grid-template-rows: 1;
   transition: ease 0.26s;
   justify-items:center;
-
 }
 
 .item.vi2{
@@ -398,7 +393,6 @@ input {
   grid-column: span 5;
 }
 
-
 .item img{
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -407,8 +401,6 @@ input {
   object-fit: cover;
   filter: grayscale(0.3);
   transition: ease 0.26s;
-
-
 }
 
 .item:hover{
@@ -452,8 +444,8 @@ input {
 
 .overlay img{
   display: block;
-   max-width:80vw;
-   max-height:80vh;
-   width: auto;
-   height: auto;
+  /* max-width:80vw; */
+  max-height:80vh;
+  width: auto;
+  height: auto;
 }

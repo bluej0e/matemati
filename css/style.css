@@ -75,8 +75,14 @@ body {
 	color: #2f2f2f;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #ffffff;
+	background-color: #f0f0f0;
 	text-align: center;
+}
+
+#secondwrap h1 {
+  margin-bottom: 1em;
+  font-size: 44px;
+
 }
 
 #secondwrap h2 {
@@ -90,8 +96,32 @@ body {
 
 #secondwrap p {
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 18px;
+  text-align: justify;
 }
+
+#secondwrap img {
+  float: right;
+  margin: 15px 15px 30px 30px;
+  min-width: 300px;
+  width: 25vw;
+  box-shadow: 0px 0px 30px #232323;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 440px){
+  #secondwrap img {
+    float: none;
+    margin: 0 auto 30px;
+    min-width: 300px;
+    box-shadow: 0px 0px 30px #232323;
+    border-radius: 20px;
+  }
+  #secondwrap p {
+  	font-size: 16px;
+  }
+}
+
 
 .linewrap {
 	border-left: 2px #ddd solid;
@@ -444,7 +474,7 @@ input {
 
 .overlay img{
   display: block;
-  /* max-width:80vw; */
+  /* max-width:80vw;y */
   max-height:80vh;
   width: auto;
   height: auto;
